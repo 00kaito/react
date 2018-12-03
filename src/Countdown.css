@@ -1,0 +1,17 @@
+.countdown{
+    background: linear-gradient(lightblue, cornflowerblue);
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 25px;
+}
+
+.countdown__icons{
+    cursor: pointer;
+    display: none;
+    float: right;
+    font-size: 1.2rem
+}
+
+.countdown:hover .countdown__icons{
+    display: block;
+}
